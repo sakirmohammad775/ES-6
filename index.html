@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Premium Store</title>
     <link rel="stylesheet" href="project.css">
-
 </head>
-
 <body>
-    <div class="main-container">
-        <div id="product-container"class="product-container"></div>
-        <div class="cart-container">
-            <h1> This is Cart <span id="count">0</span></h1>
-            <hr>
-            <div id="cart-main-container" class="cart-main-container">
-                
-            </div>
-            <hr>
-            <h3>Total: <span id="total"></span></h3>
-        </div>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <h2 class="logo">🛍 PremiumStore</h2>
+    <div class="nav-right">
+        <span>Cart 🛒 <strong id="count">0</strong></span>
     </div>
+</nav>
 
-    <script src="project.js"></script>
+<!-- Main Content -->
+<div class="main-container">
+    <div id="product-container" class="product-container"></div>
+
+    <div class="cart-container">
+        <h1>Your Cart</h1>
+        <hr>
+        <div id="cart-main-container" class="cart-main-container"></div>
+        <hr>
+        <h2>Total: $<span id="total">0.00</span></h2>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>© 2025 PremiumStore. All Rights Reserved.</p>
+</footer>
+
+<script src="project.js"></script>
 </body>
-
 </html>
